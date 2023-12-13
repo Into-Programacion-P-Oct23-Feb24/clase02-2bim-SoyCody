@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo06 {
+public class Ejemplo062 {
 
     /**
      * @param args the command line arguments
@@ -28,9 +28,20 @@ public class Ejemplo06 {
         
             System.out.println("Ingrese un valor para el arreglo");
             dato = entrada.nextInt();
-            // se asigna la variable dato a la posición del arreglo
-            // de acuerdo al valor de i
-            arreglo1[i] = dato;
+            switch (dato){
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                case 11:
+                case 13:
+                case 14:
+                    arreglo1[i] = dato;
+                    break;
+                default:
+                    arreglo1[i] = 5;
+            } 
             
         }
         
