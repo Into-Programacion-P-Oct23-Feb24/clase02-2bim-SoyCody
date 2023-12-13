@@ -26,6 +26,7 @@ public class Ejemplo03 {
         
         // arreglo de tipo entero
         int[] arreglo3 = {5, 10, 15, 20, 25}; // sin new
+        // la diferencia de estos 3 arreglos es que en el 1 y 2 se declaran valores e una sola linea y en el arreglo 3 se da valor a su contenido
         
         // arreglo de doubles - 3 elementos
         double[] arreglo4 = {5.1, 10.2, 15.2}; // sin new
