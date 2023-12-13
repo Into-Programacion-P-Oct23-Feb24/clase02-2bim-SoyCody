@@ -39,12 +39,14 @@ public class Ejemplo062 {
                 case 14:
                     arreglo1[i] = dato;
                     break;
+                // si se ingresan estos valores en el mismo orden se lo 
+                // mostrara tal como esta
                 default:
                     arreglo1[i] = 5;
+                // con arreglo1[i] = 5 hara que sean iguales a 5 los valores 
+                // que sean diferentes a los pedidos
             } 
-            
         }
-        
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
         for (int i = 0; i < arreglo1.length; i++) {
             System.out.printf("Subíndice o Índice %d, con valor %d\n",
